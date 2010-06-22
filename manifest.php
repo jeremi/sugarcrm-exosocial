@@ -9,7 +9,7 @@ $manifest = array(
 '6.0',
 ),
 'is_uninstallable' => true,
-'name' => 'eXo Platform Connector',
+'name' => 'eXo Social Plugin',
 'description' => 'Connector for eXo Platform',
 'author' => 'Jeremi Joslin - eXo',
 'published_date' => '2010/06/01',

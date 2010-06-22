@@ -2,11 +2,11 @@
 if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 
 $config = array (
-  'name' => 'eXo Spaces',
+  'name' => 'eXo Social',
   'order' => 1,
   'properties' => 
   array (
-     'exo_platform_url'=>'http://192.168.2.100:8080',
+     'exo_platform_url'=>'http://127.0.0.1:8080',
   ),
 );
 ?>

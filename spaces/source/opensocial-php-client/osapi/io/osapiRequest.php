@@ -64,9 +64,9 @@ class osapiRequest {
 	    if (! is_array($params['userId'])) {
 	      $params['userId'] = array($params['userId']);
 	    }
-	    if (isset($params['groupId']) && ! in_array($params['groupId'], array('@self', '@all', '@friends', '@supportedMood'))) {
+	    /* if (isset($params['groupId']) && ! in_array($params['groupId'], array('@self', '@all', '@friends', '@supportedMood'))) {
 	      throw new osapiException("Invalid groupId, allowed types are: @self, @all and @friends");
-	    }
+	    }*/
     }
     // Everything checks out, create the request object & return it
     return new osapiRequest($method, $params);

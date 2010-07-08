@@ -97,7 +97,7 @@ class PublishActivity {
     }
     
     function _sendActivity($case, $activity) {
-        $spaceName = "Sugar: Cases ".$case->case_number;
+        $spaceName = "Sugar Cases ".$case->case_number;
         
         $activity = $GLOBALS["current_user"]->full_name.": ".$activity;
         

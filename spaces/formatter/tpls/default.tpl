@@ -40,7 +40,7 @@ if(isIE) {
 cd = new CompanyDetailsDialog("spaces_popup_div", '<div id="spaces_div"></div>', xCoordinate, yCoordinate);
 cd.setHeader("{$module} {$fields.{{$mapping_name}}.value}");
 cd.display();
-spaces.createSpaceBox(document.getElementById("spaces_div"), "Sugar: {$module} {$fields.{{$mapping_name}}.value}", "{$fields.name.value}");
+spaces.createSpaceBox(document.getElementById("spaces_div"), "Sugar {$module} {$fields.{{$mapping_name}}.value}", "{$fields.name.value}");
 {literal}
 } 
 {/literal}

@@ -15,7 +15,6 @@
  * limitations under the License.
  */
 
-require_once "osapiFileStorage.php";
 require_once "osapiApcStorage.php";
 require_once "osapiMemcacheStorage.php";
 

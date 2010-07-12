@@ -17,7 +17,6 @@
 
 include_once("osapiDummyAppender.php");
 include_once("osapiConsoleAppender.php");
-include_once("osapiFileAppender.php");
 
 /**
  * The osapiAppender is the base class for all the appenders to be used
